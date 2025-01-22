@@ -60,52 +60,5 @@ html, body {
     }
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-    position: relative;
-}
-
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    position: absolute;
-    animation: moveAndRotate 5s infinite, changeColor 5s infinite ease-in-out;
-}
-
-@keyframes moveAndRotate {
-    0% {
-        transform: translateX(0) rotate(0deg); 
-    }
-    50% {
-        transform: translateX(300px) rotate(180deg); 
-    }
-    100% {
-        transform: translateX(0) rotate(360deg); 
-    }
-}
-
-@keyframes changeColor {
-    0% {
-        background-color: blue;
-    }
-    25% {
-        background-color: green;
-    }
-    50% {
-        background-color: yellow;
-    }
-    75% {
-        background-color: red;
-    }
-    100% {
-        background-color: blue;
-    }
-}
 
 
