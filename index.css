@@ -21,7 +21,7 @@ html, body {
     background-color: red;
     border-radius: 50%;
     position: absolute;
-    animation: bounce 6s infinite linear, changeShapeAndColor 10s infinite ;
+    animation: bounce 8s infinite linear, changeShapeAndColor 12s infinite ;
 }
 
 @keyframes bounce {
